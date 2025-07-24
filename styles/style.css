@@ -107,7 +107,43 @@ nav li a{
     padding-bottom: 39.5px;
     padding-top: 39.5px;
     color: rgba(0, 0, 0, 0.5);
-} 
+}
+
+.off-25{
+    margin-left: 580px;
+    margin-top: 150px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.off-60{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 75px;
+    margin-top: 70px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.off-30{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 75px;
+    margin-top: 290px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Footer Section Styles */
+
 footer{
     background-image: url(../assets/news-letter-bg.png);
     margin: 0 auto;
