@@ -48,10 +48,11 @@ nav li a{
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     margin-top: 49px;
+    margin-bottom: 200px;
     justify-content: center;
     text-align: center;
-    margin-bottom: 210px;
 }
+
 .card-container img{
     margin-bottom: 20px;
     width: 100%;
@@ -60,7 +61,7 @@ nav li a{
     font-weight: 700px;
     font-size: 22px;
     margin-top: 10px;
-    color: white;
+    color: #000000;
 }
 .card-container button{
     background-color: #E95A08;
@@ -69,6 +70,42 @@ nav li a{
     font-weight: 600px;
     height: 50px;
     margin-top: 20px;
+}
+
+
+/* Challenge Part Styles */
+
+.challange{
+    display: flex;
+    gap: 60px;
+    position: relative;
+}
+.challanges{
+    position: relative;
+}
+.abcd{
+    position: absolute;
+    top: -120px;
+    right: -100px;
+    width: 245px;
+    height: 245px;
+}
+
+
+.challange h1{
+    font-size: 50px;
+    font-weight: 700px;
+    color: #000000;
+}
+.challange ul li{
+    list-style: circle;
+    line-height: 20px;
+    
+}
+.store-text{
+    height: 518px;
+    padding-bottom: 39.5px;
+    padding-top: 39.5px;
 }
 
 
