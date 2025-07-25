@@ -214,9 +214,6 @@ form button{
 .anchor{
     line-height: 50px;
 }
-.footer-icon{
-
-}
 
 
 
@@ -262,7 +259,7 @@ form button{
             .card-container{
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
-                margin-top: 10px;
+             margin-top: 10px;
                 margin-bottom: 10px;
             }
 
@@ -297,9 +294,9 @@ form button{
                 height: auto;
             }
             .off-25{
-                margin: 400px 18px;
+                margin: 450px 18px;
                 padding: 120px 20px;
-                font-size: 2rem;
+                font-size: 2.4rem;
                 font-weight: 500;
                 white-space: nowrap;
             }
