@@ -297,12 +297,11 @@ form button{
                 height: auto;
             }
             .off-25{
-                margin: 400px 140px;
-                
-                padding: -120px 20px;
+                margin: 400px 18px;
+                padding: 120px 20px;
                 font-size: 2rem;
                 font-weight: 500;
-                display: none;
+                white-space: nowrap;
             }
             .bloom{
                 width: 100%;
