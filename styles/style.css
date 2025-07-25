@@ -8,19 +8,19 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 517;
-    font-size: 65px;
+    font-size: 4rem;
     line-height: 89px;
     text-align: left;
 }
 
-
-/* *{
+ /* *{
     box-sizing: border-box;
     max-width: 1140px;
     margin: 0 auto;
 } */
 
 /* navabr styles */
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -28,7 +28,7 @@ nav{
 }
 header ul{
     display: flex;
-    gap: 48px;
+    gap: 3rem;
     list-style: none;
     text-decoration: none;
 }
@@ -37,30 +37,41 @@ nav li a{
 }
 
 /* Banner styles */
-
+.banner{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 .banner-des{
-    font-size: 22px;
+    font-size: 1.37rem;
     color: #000000;
+}
+.banner img{
+    width: 100%;
+    justify-content: flex-end;
+}
+.ban{
+    padding-top: 100px;
 }
 
 .card-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
-    margin-top: 49px;
+    gap: 1.8rem;
+    margin-top: 3rem;
     margin-bottom: 200px;
     justify-content: center;
     text-align: center;
 }
 
 .card-container img{
-    margin-bottom: 20px;
+    margin-bottom: 1.2rem;
     width: 100%;
 }
 .card-container p{
     font-weight: 700px;
-    font-size: 22px;
-    margin-top: 10px;
+    font-size: 1.4rem;
+    margin-top: 0.6rem;
     color: #000000;
 }
 .card-container button{
@@ -68,8 +79,8 @@ nav li a{
     width: 100%;
     color: white;
     font-weight: 600px;
-    height: 50px;
-    margin-top: 20px;
+    height: 3.1rem;
+    margin-top: 1.25rem;
 }
 
 
@@ -77,7 +88,7 @@ nav li a{
 
 .challange{
     display: flex;
-    gap: 60px;
+    gap: 3.8rem;
     position: relative;
 }
 .challanges{
@@ -93,13 +104,13 @@ nav li a{
 
 
 .challange h1{
-    font-size: 50px;
+    font-size: 3.1rem;
     font-weight: 700px;
     color: #000000;
 }
 .challange ul li{
     list-style: circle;
-    line-height: 20px;
+    line-height: 1.25rem;
     
 }
 .store-text{
@@ -116,12 +127,12 @@ nav li a{
     align-items: center;
     text-align: center;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 3.8rem;
     font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 .off-60{
     color: white;
-    font-size: 20px;
+    font-size: 1.3rem;
     font-weight: bold;
     margin-left: 75px;
     margin-top: 70px;
@@ -132,7 +143,7 @@ nav li a{
 }
 .off-30{
     color: white;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     margin-left: 75px;
     margin-top: 290px;
@@ -144,14 +155,14 @@ nav li a{
 
 /* Footer Section Styles */
 
-footer{
+/* footer{
     background-image: url(../assets/news-letter-bg.png);
     margin: 0 auto;
     background-repeat: no-repeat;
     background-size: cover;
     height: 533px;
     margin-bottom: 120px;
-}
+} */
 
 form{
     justify-content: center;
@@ -160,15 +171,15 @@ form{
     padding-top: 200px;
 }
 form h1{
-    font-size: 50px;
+    font-size: 3.1rem;
     font-weight: bold;
     color: white;
 }
 form input{
     background-color: white;
     width: 644px;
-    height: 50px;
-    margin-top: 23px;
+    height: 3.1rem;
+    margin-top: 1.2rem;
 }
 form button{
     background-color: #E95A08;
@@ -180,12 +191,12 @@ form button{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    gap: 32px;
+    gap: 2rem;
     column-gap: 36px;
 }
 .foot-title{
     color: rgba(0, 0, 0, 0.5);
-    font-size: 22px;
+    font-size: 1.3rem;
 }
 .finis{
     margin: 50px 160px;
@@ -197,16 +208,39 @@ form button{
 }
 
 
+@media screen and (max-width: 576px) {
 
-@media screen and (max-width: 768px) {
-    .ok,
-    .not-ok{
-        display: none;
-    }
-    .banner{
-        display: flex;
-    }
-    .img-3{
-        width: 100%;
-    }
+            .li-1,
+            .li-2,
+            .li-3{
+                display: none;
+            }
+            .banner{
+                display: flex;
+                flex-direction:column-reverse;
+                height: auto;
+            }
+            .banner img{
+                width:100%;
+                margin-bottom: 1px;
+            
+            }
+            .finis{
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+            nav{
+                padding: 0 20px;
+            }
+            .ban{
+                margin-top: 0px;
+                padding-top: 2px;
+            }
+            .banner-des{
+                margin-top: 2px;
+            }
+            header{
+                margin-top: 5px;
+            }
+    
 }
