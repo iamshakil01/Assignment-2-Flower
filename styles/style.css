@@ -158,15 +158,14 @@ nav li a{
 
 /* Footer Section Styles */
 
-/* footer{
+footer{
     background-image: url(../assets/news-letter-bg.png);
     margin: 0 auto;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 533px;
     margin-bottom: 120px;
-} */
-
+    height: 533px;
+}
 form{
     justify-content: center;
     text-align: center;
@@ -183,6 +182,7 @@ form input{
     width: 644px;
     height: 3.1rem;
     margin-top: 1.2rem;
+    color: white;
 }
 form button{
     background-color: #E95A08;
@@ -191,11 +191,13 @@ form button{
 }
 
 .foot{
-    margin: 0 auto;
+    margin: 50px 160px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 2rem;
     column-gap: 36px;
+    align-items: center;
+    text-align: center;
 }
 .foot-title{
     color: rgba(0, 0, 0, 0.5);
@@ -209,6 +211,14 @@ form button{
 .finis ul a{
      column-gap: 36px;
 }
+.anchor{
+    line-height: 50px;
+}
+.footer-icon{
+
+}
+
+
 
 
 @media screen and (max-width: 576px) {
@@ -230,10 +240,6 @@ form button{
                 width:100%;
                 margin-bottom: 1px;
             
-            }
-            .finis{
-                display: grid;
-                grid-template-columns: 1fr;
             }
 
             nav{
@@ -292,18 +298,52 @@ form button{
             }
             .off-25{
                 margin: 400px 140px;
-                text-align: center;
-                justify-content: center;
-                align-items: center;
+                
                 padding: -120px 20px;
+                font-size: 2rem;
+                font-weight: 500;
+                display: none;
             }
             .bloom{
                 width: 100%;
                 height: auto;
             }
-            .off-30,
-            .off-60{
-                display: n;
+            footer img{
+                width: 393px;
+                height: 275px;
             }
+            footer input{
+                width: 300px;
+                height: 50px;
+               display: grid;
+               grid-template-columns: repeat(2, 1fr);
+               margin: 0 auto;
+               margin-bottom: 10px;
+               color: white;
+            }
+            footer button{
+                height: 50px;
+                width: 103px;
+            }
+            
+            .foot{
+                display: flex;
+                flex-direction: column;
+                margin: 20px 10px;
+                padding-left: 1px;
+                justify-content: flex-start;
+                
+            }
+            .footer-icon{
+                display: none;
+            }
+            .anchor{
+                line-height: 32px;
+            }
+            .logo{
+                width: 100%;
+            }
+            
+
     
 }
