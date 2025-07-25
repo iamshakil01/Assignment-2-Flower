@@ -54,6 +54,8 @@ nav li a{
     padding-top: 100px;
 }
 
+/* Card Container Styles */
+
 .card-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -241,6 +243,15 @@ form button{
             }
             header{
                 margin-top: 5px;
+            }
+            .card-container{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            .card-section{
+                margin: 0 10px;
             }
     
 }
