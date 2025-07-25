@@ -96,7 +96,7 @@ nav li a{
 .challanges{
     position: relative;
 }
-.abcd{
+.trusted-badge{
     position: absolute;
     top: -120px;
     right: -100px;
@@ -123,14 +123,15 @@ nav li a{
 }
 
 .off-25{
-    margin-left: 580px;
+    margin-left: 500px;
     margin-top: 150px;
     color: white;
     align-items: center;
     text-align: center;
     font-weight: bold;
-    font-size: 3.8rem;
+    font-size: 3.7rem;
     font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    
 }
 .off-60{
     color: white;
@@ -217,11 +218,14 @@ form button{
             .li-3{
                 display: none;
             }
+
             .banner{
                 display: flex;
                 flex-direction:column-reverse;
                 height: auto;
+                margin: 0 10px;
             }
+
             .banner img{
                 width:100%;
                 margin-bottom: 1px;
@@ -231,27 +235,75 @@ form button{
                 display: grid;
                 grid-template-columns: 1fr;
             }
+
             nav{
                 padding: 0 20px;
             }
+
             .ban{
                 margin-top: 0px;
                 padding-top: 2px;
             }
+
             .banner-des{
                 margin-top: 2px;
             }
+
             header{
                 margin-top: 5px;
             }
+
             .card-container{
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
                 margin-top: 10px;
                 margin-bottom: 10px;
             }
+
             .card-section{
                 margin: 0 10px;
+            }
+
+            .challange{
+                display: flex;
+                flex-direction: column;
+                margin: 0 10px;
+            }
+
+            .trusted-badge{
+                    display: none;
+            }
+
+            .store-text{
+                padding: 0px;
+            }
+            .latest{
+                margin: 0 10px;
+            }
+            .deals{
+                margin: 10px 10px;
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+            }
+            .deals img{
+                width: 100%;
+                height: auto;
+            }
+            .off-25{
+                margin: 400px 140px;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                padding: -120px 20px;
+            }
+            .bloom{
+                width: 100%;
+                height: auto;
+            }
+            .off-30,
+            .off-60{
+                display: n;
             }
     
 }
